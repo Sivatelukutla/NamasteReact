@@ -50,3 +50,14 @@ by using javascript we create a elements
 
 ------------------------------------------******************------------------------------------------------------------------------------------------------------------------------
 
+npm init -y => installing a package.json(it is a configuration of npm).it install -D(devdepencies) 
+NOTE:
+    npm is not standard a node package manager.it means a mange a packages 
+NOTE:
+    so we want bundle all files and folder.so we install bundler.that is parcel=>it is bundler  
+npm install -D parcel => it is package to install bundler 
+NOTE:
+    when we install bundler.then install node_modules(folder) and package-lock.json also created 
+NOTE:
+    so we don't want to push all files and folder into production or github.so we use .gitignore 
+    
