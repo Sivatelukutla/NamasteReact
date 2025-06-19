@@ -1,0 +1,52 @@
+--------------*HTML*------------------------------
+by using html we create elements 
+    <h2>Hello World</h2>
+
+---------------*javascript*------------------------
+by using javascript we create a elements 
+    let rootEl = document.getElementById("root");
+    let headingEl = document.createElement("h2");
+    headingEl.innerHTML = "Hello World";
+    rootEl.apppendChild(headingEl);
+    =>=>Output : Hello World 
+
+    NOTE:what are the getElementById,createElement,apppendChild 
+    NOTE:in the browser have v8 javascript engine its understand the thos super powers 
+    NOTE:but bowser dosn't understand react code 
+    NOTE:we want to import the react CDN then that time only bowser understand react code
+    NOTE:content delivery network(CDN)
+
+-----------------*React js*------------------------ 
+    CDN:
+        <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+        **this is one of the link inject the react js code. it is full code of react 
+        <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+        **this is use of do operation on DOM 
+    NOTE:
+        => if we inject those links the borwser understand react js code 
+    NOTE:
+        =>the CDN links are import a between a body tag
+        =>upper the body end tag 
+    LIKE:
+        <body>
+
+
+            <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+            <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+        </body>
+
+
+-------------------------*React js*------------------ 
+    <script>
+        let headingEl = React.createElement("h1", {className:"heading"}, "hello world"); => its come from react,it is core react
+        let root = ReactDom.createRoot(document.getElementById("root")); => its come from reactDom 
+        root.render(headingEl);
+    </script>
+    NOTE: but it is not correct to write in scirpt tag, i write in javascript.file and import in this file.it is correct way.....
+    NOTE: console.log(headingEl) // its return onject 
+    NOTE: render // its show a headingEl in div tag 
+
+----------------------------------^^^Episode1^^^------------------------------------------------------------------------------------------------------ 
+
+------------------------------------------******************------------------------------------------------------------------------------------------------------------------------
+
