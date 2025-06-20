@@ -1,8 +1,8 @@
 {
   "name": "namaste-react",
   "version": "1.0.0",
-  "main": "App.js",
   "scripts": {
+    "start" : "parcel index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -11,5 +11,9 @@
   "description": "",
   "devDependencies": {
     "parcel": "^2.15.2"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
   }
 }

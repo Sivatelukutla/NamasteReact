@@ -60,4 +60,13 @@ NOTE:
     when we install bundler.then install node_modules(folder) and package-lock.json also created 
 NOTE:
     so we don't want to push all files and folder into production or github.so we use .gitignore 
+NOTE:
+    if we delete node_modules, not problem uninstall a node_modules. if we want install node_modules, give this npm install 
+NOTE:
+    npm = it is use of installing a package 
+    npx = it is use of execute of package 
+    that is the difference b/w npm,npx............... 
+NOTE: when we use this package npx parcel index.html.its hoisted in localhost and its run and give output....for suppose we delete cdn link of react its give error the react is not defines..why because in 
+        that code we written React.createElement, ReacDom.createRoot those all comes from cdn...so we write import that react and reactDom from react and react-dom package 
+        
     
